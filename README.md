@@ -2,10 +2,10 @@
 
 Este repositorio contiene los scripts de procesamiento, limpieza de datos, análisis exploratorio y generación de visualizaciones correspondientes al trabajo de tesis para la **Licenciatura en Ciencias de Datos**.
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 El objetivo principal de este trabajo es realizar un flujo completo de Ciencia de Datos aplicado a registros judiciales no estructurados/semiestructurados del Poder Judicial, abarcando desde la preparación y normalización de la base original hasta el análisis de variables demográficas, tipos de violencia constatada y medidas cautelares u oficios dictados.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 ├── 01_datos_originales/       # Base original sin procesar (Excel)
 ├── 02_datos_limpios/          # Datos procesados, limpios y resúmenes tabulares
