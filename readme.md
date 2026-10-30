@@ -10,7 +10,7 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 
 ---
 
-## 📌 Objetivos del Proyecto
+## Objetivos del Proyecto
 
 * **Normalización y Limpieza:** Resolver problemas de codificación (*mojibake* / UTF-8), caracteres especiales e inconsistencias tipográficas en registros judiciales.
 * **Tratamiento de Datos Nulos y Atípicos:** Auditar el nivel de incompletitud por columna y filtrar inconsistencias en las edades registradas de denunciantes y denunciados.
@@ -19,7 +19,7 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 .
@@ -38,7 +38,7 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 
 ---
 
-## 🛠️ Tecnologías y Librerías
+## Tecnologías y Librerías
 
 * **Lenguaje de Programación:** Python 3.10+
 * **Manipulación y Análisis de Datos:** `pandas`, `numpy`
@@ -48,7 +48,7 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 
 ---
 
-## 🔄 Pipeline de Procesamiento de Datos
+## Pipeline de Procesamiento de Datos
 
 ```text
 [Datos Originales (.xlsx)]
@@ -82,7 +82,7 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 
 ---
 
-## 🚀 Guía de Instalación y Ejecución
+## Guía de Instalación y Ejecución
 
 Sigue estos pasos para replicar el entorno de desarrollo en tu equipo:
 
@@ -117,7 +117,7 @@ Sigue estos pasos para replicar el entorno de desarrollo en tu equipo:
 
 ---
 
-## 📄 Protección de Datos y Privacidad
+## Protección de Datos y Privacidad
 
 Los datasets procesados en este trabajo respetan la normativa vigente sobre protección de datos personales. Todos los registros han sido previa y estrictamente **anonimizados**, eliminando nombres, números de documento, domicilios concretos e identificadores directos de las partes involucradas.
 
