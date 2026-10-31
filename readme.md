@@ -4,7 +4,7 @@
 [![Power BI](https://img.shields.io/badge/Power_BI-Interactive_Dashboard-yellow.svg)](https://powerbi.microsoft.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Este repositorio contiene el código fuente, notebooks de procesamiento y la arquitectura de datos del trabajo de integración final para la **Licenciatura en Ciencias de Datos**.
+Este repositorio contiene el código fuente, notebooks de procesamiento y la arquitectura de datos del trabajo de integración final para la **Licenciatura en Ciencia de Datos**.
 
 El proyecto realiza el procesamiento integral de registros judiciales semiestructurados sobre violencia de género y familiar, aplicando técnicas de limpieza de texto, detección de anomalías, binarización de variables categóricas y modelado multidimensional para tableros interactivos.
 
