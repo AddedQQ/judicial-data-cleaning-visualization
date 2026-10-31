@@ -26,11 +26,11 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 ├── 01_datos_originales/       # Datasets originales sin procesar (Excel/CSV)
 ├── 02_datos_limpios/          # Datasets procesados, normalizados y tabulados
 ├── 03_notebooks/              # Secuencia de Jupyter Notebooks explicativos
-│   ├── 01_diagnostico_inicial_base.ipynb      # Carga, codificación UTF-8, tratamiento de nulos y atípicos
-│   ├── 02_binarizacion_y_categorizacion.ipynb # Binarización de violencias y medidas dictadas
-│   └── 03_analisis_exploratorio_y_graficos.ipynb # Visualización de datos y exportaciones
-│   └──
-│   └──
+│   ├── 01_diagnostico_inicial.ipynb                   # Diagnóstico inicial: estructura, calidad, detección de nulos y duplicados
+│   ├── 02_analisis_exploratorio.ipynb                 # EDA: distribuciones temporales, tipologías de violencia y mapa territorial
+│   ├── 03_cruces_e_indicadores.ipynb                  # Construcción de variables derivadas (gravedad máxima, cantidad de medidas)
+│   ├── 04_pruebas_estadisticas_y_tasas.ipynb          # Prueba Chi-cuadrado, V de Cramér y tasa de incidencia por 10k hab. (Censo 2022)
+│   └── 05_preparacion_dashboard.ipynb                 # Exportación de consolidados finales estructurados para Power BI / Streamlit
 ├── 04_graficos_resultados/    # Gráficos exportados automáticamente en formato PNG (300 DPI)
 ├── 05_dashboard_powerbi/      # Archivo (.pbix) del tablero interactivo
 ├── .gitignore                 # Exclusión de archivos temporales y locales
