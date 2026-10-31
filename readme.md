@@ -141,4 +141,4 @@ Sigue estos pasos para replicar el entorno de desarrollo en tu equipo:
 Los datasets procesados en este trabajo respetan la normativa vigente sobre protección de datos personales. Todos los registros han sido previa y estrictamente **anonimizados**, eliminando nombres, números de documento, domicilios concretos e identificadores directos de las partes involucradas.
 
 ---
-*Trabajo de Integración Final — Licenciatura en Ciencias de Datos.*
+*Trabajo de Integración Final — Licenciatura en Ciencia de Datos.*
