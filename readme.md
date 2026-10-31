@@ -26,9 +26,11 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 ├── 01_datos_originales/       # Datasets originales sin procesar (Excel/CSV)
 ├── 02_datos_limpios/          # Datasets procesados, normalizados y tabulados
 ├── 03_notebooks/              # Secuencia de Jupyter Notebooks explicativos
-│   ├── 01_auditoria_y_limpieza.ipynb      # Carga, codificación UTF-8, tratamiento de nulos y atípicos
+│   ├── 01_diagnostico_inicial_base.ipynb      # Carga, codificación UTF-8, tratamiento de nulos y atípicos
 │   ├── 02_binarizacion_y_categorizacion.ipynb # Binarización de violencias y medidas dictadas
 │   └── 03_analisis_exploratorio_y_graficos.ipynb # Visualización de datos y exportaciones
+│   └──
+│   └──
 ├── 04_graficos_resultados/    # Gráficos exportados automáticamente en formato PNG (300 DPI)
 ├── 05_dashboard_powerbi/      # Archivo (.pbix) del tablero interactivo
 ├── .gitignore                 # Exclusión de archivos temporales y locales
@@ -88,8 +90,8 @@ Sigue estos pasos para replicar el entorno de desarrollo en tu equipo:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/tesis-registros-judiciales-violencia.git
-   cd tesis-registros-judiciales-violencia
+   git clone https://github.com/AddedQQ/judicial-data-cleaning-visualization.git
+   cd judicial-data-cleaning-visualization
    ```
 
 2. **Crear y activar un entorno virtual:**
