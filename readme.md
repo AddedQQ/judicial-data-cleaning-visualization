@@ -56,30 +56,47 @@ El proyecto realiza el procesamiento integral de registros judiciales semiestruc
 [Datos Originales (.xlsx)]
           │
           ▼
-┌────────────────────────────────────────┐
-│ Notebook 01: Auditoría y Limpieza       │
-│  - Corrección de Mojibake (UTF-8)      │
-│  - Filtrado de outliers en edades      │
-│  - Estandarización de columnas          │
-└────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│ Notebook 01: Auditoría y Diagnóstico Inicial             │
+│  - Revisión de estructura, tipos de datos y columnas     │
+│  - Detección de valores nulos y control de duplicados    │
+│  - Corrección de Mojibake y normalización de texto       │
+└──────────────────────────────────────────────────────────┘
           │
           ▼
-┌────────────────────────────────────────┐
-│ Notebook 02: Transformación           │
-│  - Binarización de tipos de violencia  │
-│  - Agregación de medidas cautelares    │
-└────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│ Notebook 02: Análisis Exploratorio & Visualización       │
+│  - Análisis de frecuencias temporales(anuales/mensuales) │
+│  - Prevalencia por tipos de violencia constatada         │
+│  - Generación de mapa de distribución territorial        │
+└──────────────────────────────────────────────────────────┘
           │
           ▼
-┌────────────────────────────────────────┐
-│ Notebook 03: EDA & Exportación          │
-│  - Generación de gráficos (300 DPI)    │
-│  - Exportación de dataset limpio (.csv)│
-└────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│ Notebook 03: Cruces Estadísticos e Indicadores           │
+│  - Construcción de variable derivada "Gravedad Máxima"   │
+│  - Agregación y conteo de medidas judiciales dictadas    │
+│  - Matrices de contingencia entre violencia y medidas    │
+└──────────────────────────────────────────────────────────┘
           │
-          ├──────────────────────────┐
-          ▼                          ▼
-[Gráficos PNG para Tesis]   [Dashboard Power BI (.pbix)]
+          ▼
+┌──────────────────────────────────────────────────────────┐
+│ Notebook 04: Pruebas Estadísticas y Tasa Territorial     │
+│  - Evaluación de asociación: Chi-cuadrado y V de Cramér  │
+│  - Cálculo de Tasa de Incidencia cada 10.000 hab. (Censo)│
+│  - Generación de gráficos comparativos en alta resolución│
+└──────────────────────────────────────────────────────────┘
+          │
+          ▼
+┌──────────────────────────────────────────────────────────┐
+│ Notebook 05: Preparación de Salidas para Dashboard       │
+│  - Formateo y consolidación del dataset depurado         │
+│  - Exportación de tablas estructuradas (.xlsx / .csv)    │
+└──────────────────────────────────────────────────────────┘
+          │
+          ├──────────────────────────────────┐
+          ▼                                  ▼
+[Gráficos PNG a 300 DPI]        [Dashboard Power BI / Streamlit]
 ```
 
 ---
